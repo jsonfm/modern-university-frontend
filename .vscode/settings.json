@@ -1,0 +1,52 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.next": true,
+        "**/node_modules": true,
+        "**/.husky": true,
+        "amplify/.config": true,
+        "amplify/**/*-parameters.json": true,
+        "amplify/**/amplify.state": true,
+        "amplify/**/transform.conf.json": true,
+        "amplify/#current-cloud-backend": true,
+        "amplify/backend/amplify-meta.json": true,
+        "amplify/backend/awscloudformation": true
+    },
+    "prettier.semi": true,
+    "prettier.singleQuote": false,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "prettier.bracketSpacing": true,
+    "prettier.bracketSameLine": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.insertFinalNewline": true,
+    "files.eol": "\n",
+    "files.encoding": "utf8",
+    "git.mergeEditor": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
